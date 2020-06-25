@@ -7,7 +7,32 @@
 </head>
 <body>
 
+  <div class="window">
+    <div class="window__header">
+      <p class="window__paragraph">Add event</p>
+      <button class="window__close-button">&times;</button>
+    </div>
+    <div class="window__forms">
 
+        <form class="window__form">
+          <label for="title" class="window__form--paragraph">Title: </label>
+          <input placeholder="Make a dinner" type="text" name="title" class="window__form--input">
+        </form>
+        <form class="window__form">
+          <p class="window__form--paragraph">Duration: </p>
+          <input type="radio" id="duration-1" name="duration" value="30" class="window__form--radio">
+          <label for="duration-1">30 min</label><br>
+          <input type="radio" id="duration-2" name="duration" value="60" class="window__form--radio">
+          <label for="duration-2">60 min</label>
+        </form>
+        <form class="window__form">
+          <label for="title" class="window__form--paragraph">Color: </label>
+          <input type="color" value="#5e4b70" class="window__form--color">
+        </form>
+
+      <button class="window__confirm" type="submit" value="Submit">Add event</button>
+    </div>
+  </div>
 
   <div class="container">
     <div class="grid__block">

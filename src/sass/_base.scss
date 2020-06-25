@@ -1,8 +1,13 @@
+$color-primary: #433352;
+$color-primary-lighter: #5e4b70;
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700");
+
 body {
-    background-color: #433352;
+    background-color: $color-primary;
     margin-top: 10rem;
 }
 
-.red {
-    background-color: red;
-}
+
